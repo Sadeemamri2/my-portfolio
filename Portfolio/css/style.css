@@ -1,0 +1,123 @@
+
+body {
+    background-color: #FCCEFF;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: rgba(255, 182, 193, 0.7);
+    border-radius: 15px;
+    margin: 20px;
+}
+
+
+#img {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 10px;
+}
+
+#img img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 5px solid #EBAFF3;
+}
+
+
+#p1 {
+    border-radius: 50px;
+    display: inline-block;
+    margin: 30px auto;
+    border: 10px solid rgba(235, 175, 243, 0.699);
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    font-size: 1rem;
+    font-weight: bold;
+    max-width: 80%;
+}
+
+
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin: 20px;
+}
+
+.c1 a {
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: bold;
+    background-color: #ffb6c1;
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: white;
+    transition: 0.3s;
+}
+
+.c1 a:hover {
+    background-color: #ff69b4;
+}
+
+#About_me {
+    text-align: left;
+    font-size: 1.2rem;
+    border-radius: 10px;
+    background-color: rgba(255, 222, 194, 0.486);
+    padding: 15px;
+    margin: 20px auto;
+    max-width: 80%;
+}
+
+
+#project {
+    text-align: left;
+    font-size: 1rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-radius: 13px;
+    background-color: rgba(255, 219, 172, 0.703);
+    padding: 15px;
+    margin: 20px auto;
+    max-width: 80%;
+}
+
+.project img {
+    border-radius: 10px;
+    width: 100%;
+    max-width: 500px;
+    display: block;
+    margin: 10px auto;
+}
+
+
+#contact {
+    text-align: center;
+    background-color: rgba(240, 128, 128, 0.5);
+    padding: 20px;
+    border-radius: 15px;
+    margin: 20px auto;
+    max-width: 80%;
+}
+
+#contact a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+#contact a:hover {
+    color: #ff69b4;
+}
+h2{
+    text-align: center;
+}
